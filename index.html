@@ -1155,7 +1155,7 @@
         setInterval(() => {
             let next = (currentSlide + 1) % totalSlides;
             goToSlide(next);
-        }, 5000);
+        }, 4000);
 
         // --- CALENDAR SLIDER ---
         let currentCalSlide = 0;
@@ -1210,7 +1210,7 @@
         updateCountdowns(); // Run immediately on load
 
         // --- FORM SUBMISSION ---
-        const scriptURL = 'YOUR_GOOGLE_SCRIPT_URL_HERE'; // REPLACE THIS
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwlZiBr4vIavoPQSC8SA1Wq_TZR2gs8kdcmkVZYRNAeSqV4vuOgkq3JiXqLDc_ztsUzBA/exec'; // REPLACE THIS
         const form = document.forms['registrationForm'];
         const submitBtn = document.querySelector('.submit-btn');
 
@@ -1257,4 +1257,5 @@
         }
     </script>
 </body>
+
 </html>
